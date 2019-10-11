@@ -20,6 +20,12 @@ public class TestCollection {
         System.out.println(heros.toString());
         //获取指定位置的对象
         System.out.println(heros.get(3));
+        Hero hs[] = (Hero[]) heros.toArray(new Hero[]{});
+        System.out.println("数组："+ hs);
+        //遍历数组
+        for (Hero b: hs) {
+            System.out.println(b);
+        }
 
 
 
