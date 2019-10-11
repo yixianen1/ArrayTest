@@ -8,9 +8,8 @@ public class Hero {
 
     }
     //增加一个初始化name的构造方法
-    public Hero(String name,float hp){
+    public Hero(String name){
         this.name = name;
-        this.hp = hp;
     }
 
     //重写toString方法
